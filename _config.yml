@@ -3,8 +3,8 @@ name: kuturana
 title: /kuturana
 email: nizar@mailbox.org
 description:
-baseurl: ''
-url: 'http:kuturana.github.io'
+baseurl: /
+url: /
 # Build Settings
 sass:
   sass_dir: _sass
