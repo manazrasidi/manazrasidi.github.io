@@ -3,7 +3,6 @@ name: manazrasidi
 title: manazrasidi
 email: manaz@mailbox.org
 description:
-baseurl: /
 url: /
 # Build Settings
 sass:

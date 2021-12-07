@@ -6,18 +6,11 @@ body {
   text-align: justify;
   line-height: normal;
 }
-h1,
-h2,
-h3 {
-  color: $font-color;
-  font-family: $font-style;
-  line-height: 1.2;
-  text-align: center;
-}
 h1 {
   color: $main;
   font-size: 3em;
   font-weight: normal;
+  font-family: $font-style;
   text-decoration: none;
   a,
   a:visited {
@@ -26,9 +19,18 @@ h1 {
   }
 }
 h2 {
-  margin-top: 0px;
-  font-size: 1.6em;
+  font-family: $font-style;
+  color: $font-color;
+  font-size: 1.5em;
+  margin: 0
+}
+h3 {
+  margin: 0;
+  color: $tag;
+  font-family: $font-style;
+  font-size: 1.0em;
   font-weight: normal;
+  line-height: normal;
 }
 
 header {
@@ -48,10 +50,6 @@ main {
   padding: 0 15px;
   max-width: $content-width;
   margin: 0 auto;
-}
-time {
-  text-align: center;
-  color: $font-color;
 }
 footer {
   text-align: center;
