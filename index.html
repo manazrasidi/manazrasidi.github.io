@@ -3,7 +3,6 @@ layout: default
 ---
 <!-- post list -->
 {% for post in paginator.posts %}
-<center><time>{{ post.date | date: "%b %-d, %Y" }}</time></center>
 <h2>{{ post.title }}</h2>
 {{ post.excerpt }}
 <br>
