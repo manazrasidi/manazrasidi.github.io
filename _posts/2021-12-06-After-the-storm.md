@@ -1,7 +1,8 @@
 ---
 layout: post
 title: After the storm
-ISO: 50,
+date_taken: 2021-07-07
+iso: 50
 f: 1.8
 s: 120
 camera: iPhone 8
