@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Into the known unknown
+title: Into the known unknowns
 date_taken: 2022-06-04
 iso: 200
 f: 3.2
