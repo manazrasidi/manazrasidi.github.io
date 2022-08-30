@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Summer rambler
+title: The summer rambler
 date_taken: 2022-07-30
 iso: 200
 f: 2.8
