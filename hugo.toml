@@ -1,0 +1,4 @@
+baseURL = 'https://manazrasidi.github.io/'
+languageCode = 'en-us'
+title = 'manazrasidi'
+theme = 'hugo-theme-console'
