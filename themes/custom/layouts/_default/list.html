@@ -1,0 +1,24 @@
+{{ define "main" }}
+  <div class="posts">
+    {{ range .Paginator.Pages }}
+      <div class="post">
+        <h2>{{ .LinkTitle }}</h2>
+        <div>iso{{ .Params.iso}} <i>f/</i>{{ .Params.f }} {{ .Params.s }} • {{ .Params.camera}}</div>
+        <div class="post-content">
+          {{ .Content }}
+        </div>
+      </div>
+      <hr class="post-divider">
+    {{ end }}
+  </div>
+
+  <div class="pagination">
+    {{ if .Paginator.HasPrev }}
+      <a href="{{ .Paginator.Prev.URL }}" class="prev">Previous</a>
+    {{ end }}
+
+    {{ if .Paginator.HasNext }}
+      <a href="{{ .Paginator.Next.URL }}" class="next">Next</a>
+    {{ end }}
+  </div>
+{{ end }}
