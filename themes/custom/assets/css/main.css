@@ -3,7 +3,8 @@ body {
   font-family: sans-serif;
   line-height: 1.5;
   max-width: 640px;
-  margin: auto;
+  margin: 0 auto;
+  padding: 0 10px;
 }
 
 header {
